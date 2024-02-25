@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    height: 72px;
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.card input{
+    min-width: 17px;
+    height: 17px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #4EA8DE; 
+    border-radius: 50%;
+    background-color: transparent; /* Fundo transparente */
+    cursor: pointer;
+}
+
+.card input:checked{
+    background-color: #5E60CE;
+    border-color: #5E60CE;
+    background-image: url('../assets/checked-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+}
+
+.card p{
+    width: 632px;
+    color: #F2F2F2;
+}
+
+.card p{
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.card .imgzone{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card  .imgzone img{
+    width: 12px;
+    height: 14px;
+}

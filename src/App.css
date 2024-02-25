@@ -1,0 +1,29 @@
+:root {
+    --primary: #191919;
+    --gray-700: #0D0D0D;
+}
+
+:focus{
+    outline: transparent;
+    box-shadow: 0 0 0 1px #5E60CE;
+  }
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    background-color: var(--primary);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}

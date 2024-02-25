@@ -1,0 +1,76 @@
+.taskfield{
+    
+    min-height: 287px;
+    margin-top: 64px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div {
+    display: flex;
+}
+
+.header .tasklabel{
+    color: #4EA8DE;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasklabelconcluida{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8284FA;
+}
+
+.taskcount{
+    margin-left: 8px;
+    background-color: #333333;
+    min-width: 25px;
+    padding: 0 5px;
+    height: 19px;
+    border-radius: 999px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clipboard{
+    min-height: 244px;
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptylist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.emptylist img{
+    margin-bottom: 16px;
+}
+
+.emptylist p{
+    color: #808080;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
