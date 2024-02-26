@@ -1,5 +1,4 @@
 import { Task } from "./Task";
-import DocumentIcon from "../assets/document.svg";
 import styles from "./TasksFields.module.css";
 
 export function TasksField() {
