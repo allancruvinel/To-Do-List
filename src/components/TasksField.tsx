@@ -15,18 +15,10 @@ export function TasksField() {
         </div>
       </div>
       <div className={styles.clipboard}>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
+        <Task content={'texto da task'}/>
+        <Task content={'texto da task2'} />
+        <Task content={'texto da task3'} />
+        <Task content={'texto da task4'} />
         {/* <div className={styles.emptylist}>
           <img src={DocumentIcon} alt="" />
           <div>

@@ -30,15 +30,19 @@
     background-size: 10px;
 }
 
-.card p{
+.card p {
     width: 632px;
+}
+
+.taskNotDone{
+    
     color: #F2F2F2;
 }
 
-.card p{
+.taskDone{
     color: #808080;
     text-decoration: line-through;
-}
+} 
 
 .card .imgzone{
     width: 24px;
