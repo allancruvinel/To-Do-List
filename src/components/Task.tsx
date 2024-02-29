@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import ThrashIcon from '../assets/trash-2.svg'
 import styles from './Task.module.css'
 import { TaskItem } from '../pages/Home';
