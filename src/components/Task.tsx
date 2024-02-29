@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import ThrashIcon from '../assets/trash-2.svg'
 import styles from './Task.module.css'
 import { TaskItem } from '../pages/Home';
@@ -13,7 +13,6 @@ interface TaskProps{
 
 export function Task({task,handleChangeTaskStatusProps,handleDeleteTaskProps}:TaskProps){
 
-    const [isDone,SetIsDone] = useState(false);
     
     const handleChangeTaskStatus = () => handleChangeTaskStatusProps(task);
     const handleDeleteTask = () => handleDeleteTaskProps(task);
